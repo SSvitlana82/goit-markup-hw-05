@@ -530,7 +530,7 @@ img {
 }
 
 .form-subscribe {
-  margin: 0 0 0 avto;
+  margin-left: 80px;
 }
 
 .form-title-subscribe {
@@ -551,6 +551,8 @@ img {
   padding-left: 16px;
   border-radius: 4px;
   border: 1px solid #ffffff;
+  font-family: inherit;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 264px;
   height: 40px;
   background-color: transparent;
@@ -585,15 +587,16 @@ img {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.footer-input-btn:hover,
+.footer-input-btn:focus {
+  background-color: #404bbf;
+}
 .icon-plane {
   margin-left: 16px;
   fill: #ffffff;
 }
 
-.icon-plane:hover,
-.icon-plane:focus {
-  background-color: #404bbf;
-}
 /*MODAL-CLOSE*/
 
 .backdrop {
